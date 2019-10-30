@@ -1,0 +1,1531 @@
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T07:57:55.552Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T07:57:55.921Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T07:58:47.384Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T07:58:47.831Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:10:30.478Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:10:30.830Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:16:03.136Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:16:03.488Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:16:31.947Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:16:32.304Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:20:54.030Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:20:54.415Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:22:58.919Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:22:59.325Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:24:23.940Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:24:24.294Z'
+}
+{
+  level: 'error',
+  message: 'Invalid value yardInvalid value yard',
+  stack: 'Error: Invalid value yard\n' +
+    '    at Object.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\sql-string.js:65:11)\n' +
+    '    at MySQLQueryGenerator.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:986:22)\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2282:102)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T08:24:29.752Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:25:27.279Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:25:27.699Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:01.474Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:01.826Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:53.183Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:53.594Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:55.179Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:28:55.550Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'account_role is not associated to account!account_role is not associated to account!',
+  stack: 'SequelizeEagerLoadingError: account_role is not associated to account!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T08:29:00.036Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'account_role is not associated to account!account_role is not associated to account!',
+  stack: 'SequelizeEagerLoadingError: account_role is not associated to account!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T08:29:38.229Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:32:41.076Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:32:41.486Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:05.932Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:06.278Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:09.622Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:09.978Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:28.564Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:33:28.935Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:34:18.379Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:34:18.839Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:39:16.655Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:39:17.047Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T08:39:33.535Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T08:39:33.928Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'account_role is not associated to account!account_role is not associated to account!',
+  stack: 'SequelizeEagerLoadingError: account_role is not associated to account!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T08:39:38.914Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:21:32.024Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:21:32.454Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:23:21.810Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:23:22.161Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:23:37.426Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:23:37.811Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:26:03.621Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:26:03.986Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:26:57.257Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:26:57.629Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:01.384Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:01.842Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:26.094Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:26.513Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:28.549Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:30:28.887Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:30:32.135Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:32:29.656Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:32:30.050Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_roles!role is not associated to account_roles!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_roles!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:32:33.464Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:32:59.999Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:33:00.389Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:15.617Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:15.989Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:35:18.732Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:33.474Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:33.824Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:35:35.140Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:44.187Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:35:44.757Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:36:32.798Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:36:33.154Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:36:37.084Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:36:37.459Z'
+}
+{
+  level: 'error',
+  message: 'Association with alias "Account" does not exist on account_roleAssociation with alias "Account" does not exist on account_role',
+  stack: 'Error: Association with alias "Account" does not exist on account_role\n' +
+    '    at Function._transformStringAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:332:15)\n' +
+    '    at Function._conformInclude (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:345:22)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:326:59\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._conformIncludes (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:326:39)\n' +
+    '    at Function._baseMerge (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:791:10)\n' +
+    '    at Function._defaultsOptions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:828:17)\n' +
+    '    at Function._injectScope (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3288:10)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1707:12\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Function.Promise.attempt.Promise.try (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\method.js:39:29)\n' +
+    '    at Function.findAll (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1706:23)\n' +
+    '    at show_all_owners (D:\\CarParking-BackEnd\\controllers\\ownerController.js:9:36)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  timestamp: '2019-10-29T10:36:38.336Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:25.549Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:25.917Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:27.090Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:27.534Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:39:28.955Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:57.773Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:58.150Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:59.158Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:39:59.531Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'account is not associated to account_role!account is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: account is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:40:03.557Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:40:53.384Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:40:53.758Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:40:55.061Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:41:46.312Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:41:46.677Z'
+}
+{
+  name: 'SequelizeEagerLoadingError',
+  level: 'error',
+  message: 'role is not associated to account_role!role is not associated to account_role!',
+  stack: 'SequelizeEagerLoadingError: role is not associated to account_role!\n' +
+    '    at Function._getIncludedAssociation (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:715:13)\n' +
+    '    at Function._validateIncludedElement (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:619:53)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:516:37\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function._validateIncludedElements (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:511:39)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1726:14\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-29T10:41:49.239Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:43:46.569Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:43:46.940Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-29T10:45:17.540Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-29T10:45:17.908Z'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1126:14) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1126:14) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:3306connect ECONNREFUSED 127.0.0.1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:123:19\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:725:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-30T07:00:52.919Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T07:37:21.088Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T07:37:21.517Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T07:58:17.398Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T07:58:17.787Z'
+}
+{
+  level: 'error',
+  message: 'role_name is not definedrole_name is not defined',
+  stack: 'ReferenceError: role_name is not defined\n' +
+    '    at show_all_owners (D:\\CarParking-BackEnd\\controllers\\ownerController.js:11:58)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:26:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-10-30T07:58:19.858Z'
+}
+{
+  level: 'error',
+  message: 'role_name is not definedrole_name is not defined',
+  stack: 'ReferenceError: role_name is not defined\n' +
+    '    at show_all_owners (D:\\CarParking-BackEnd\\controllers\\ownerController.js:11:58)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:26:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-10-30T07:58:21.483Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T07:58:37.901Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T07:58:38.277Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:10:54.228Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:10:54.586Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:11:56.595Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:11:56.993Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:13:53.561Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:13:54.072Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:15:28.866Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:15:29.223Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:17:43.465Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:17:43.852Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:18:37.879Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:18:38.263Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:19:55.984Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:19:56.339Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:20:13.236Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:20:13.636Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:26:45.918Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:26:46.304Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:28:18.619Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:28:19.036Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:29:34.234Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:29:34.620Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:33:17.192Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:33:17.591Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.roleId' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.roleId' in 'on clause'",
+    sql: 'SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`roleId` = 3;',
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.roleId' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.roleId' in 'on clause'",
+    sql: 'SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`roleId` = 3;',
+    parameters: undefined
+  },
+  sql: 'SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`roleId` = 3;',
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.roleId' in 'on clause'Unknown column 'roles.roleId' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.roleId' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-10-30T08:33:21.282Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:33:36.641Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:33:37.002Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:34:18.885Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:34:19.256Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:34:59.712Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:35:00.100Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:35:17.678Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:35:18.070Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:46:36.399Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:46:36.776Z'
+}
+{
+  message: "Column 'roleId' cannot be null",
+  level: 'error',
+  timestamp: '2019-10-30T08:46:36.809Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:47:50.911Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:47:51.416Z'
+}
+{
+  message: "Column 'roleId' cannot be null",
+  level: 'error',
+  timestamp: '2019-10-30T08:47:51.454Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:48:07.852Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:48:08.209Z'
+}
+{
+  message: "Column 'accountAccountId' cannot be null",
+  level: 'error',
+  timestamp: '2019-10-30T08:48:08.273Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:48:49.705Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:48:50.071Z'
+}
+{
+  message: "Column 'accountAccountId' cannot be null",
+  level: 'error',
+  timestamp: '2019-10-30T08:48:50.140Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:49:02.092Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:49:02.463Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:52:20.210Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:52:20.566Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T08:56:52.589Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T08:56:52.980Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "accountId" has invalid "undefined" valueWHERE parameter "accountId" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "accountId" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-30T08:56:57.639Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:05:02.732Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:05:03.115Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:05:58.914Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:05:59.289Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "accountId" has invalid "undefined" valueWHERE parameter "accountId" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "accountId" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-30T09:06:02.472Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "accountId" has invalid "undefined" valueWHERE parameter "accountId" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "accountId" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-10-30T09:06:23.388Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:07:32.112Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:07:32.571Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:08:27.700Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:08:28.089Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:13:52.546Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:13:52.924Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:18:03.803Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:18:04.570Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:18:04.919Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:22:30.327Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:22:30.698Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:26:16.599Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:26:16.997Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:28:49.572Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:28:49.925Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:30:11.701Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:30:12.096Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:34:18.732Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:34:19.094Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:41:53.181Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:41:53.544Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:43:10.387Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:43:10.761Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:02.639Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:03.164Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:11.958Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:12.321Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:18.062Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:46:18.416Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:47:43.815Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:47:44.188Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:47:50.679Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:47:51.083Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:58:51.576Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:58:51.937Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T09:59:43.668Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T09:59:44.050Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T10:00:53.692Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T10:00:54.060Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Missing where attribute in the options parameterMissing where attribute in the options parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3427:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at edit_customer (D:\\CarParking-BackEnd\\controllers\\customerController.js:35:35)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  timestamp: '2019-10-30T10:00:57.666Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T10:01:44.465Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T10:01:44.826Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Missing where attribute in the options parameterMissing where attribute in the options parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3427:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at edit_customer (D:\\CarParking-BackEnd\\controllers\\customerController.js:35:35)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  timestamp: '2019-10-30T10:02:08.230Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-10-30T10:02:24.311Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-10-30T10:02:24.712Z'
+}
