@@ -4,8 +4,10 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const fileUpload = require("express-fileupload");
+const accounts = require("../routes/account");
 const owners = require("../routes/owners");
 const customers = require("../routes/customers");
+const admins = require("../routes/admins");
 const error = require("../middlewares/errors");
 
 module.exports = app => {
@@ -26,8 +28,11 @@ module.exports = app => {
     );
     next();
   });
+
+  app.use("/api/accounts", accounts);
   app.use("/api/owners", owners);
   app.use("/api/customers", customers);
+  app.use("api/admins", admins);
 
   app.use(error);
 };

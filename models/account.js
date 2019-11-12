@@ -1,6 +1,6 @@
 module.exports = (sequelize, type) => {
   return sequelize.define("account", {
-    accountId: {
+    id: {
       type: type.INTEGER,
       primaryKey: true,
       autoIncrement: true
@@ -36,7 +36,8 @@ module.exports = (sequelize, type) => {
     },
     image: {
       type: type.STRING,
-      allowNull: true
+      allowNull: true,
+      defaultValue: "sssdkashdgsakhdksahdas"
     },
     balance: {
       type: type.FLOAT,
