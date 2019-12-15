@@ -5,14 +5,6 @@ module.exports = (sequelize, type) => {
       primaryKey: true,
       autoIncrement: true
     },
-    acreage: {
-      type: type.INTEGER,
-      allowNull: false
-    },
-    // point: {
-    //   type: type.INTEGER,
-    //   allowNull: false
-    // },
     status: {
       type: type.BOOLEAN,
       allowNull: false,
@@ -45,6 +37,20 @@ module.exports = (sequelize, type) => {
     price: {
       type: type.INTEGER,
       allowNull: false
+    },
+    slot: {
+      type: type.INTEGER,
+      allowNull: false
+    },
+    times: {
+      type: type.STRING,
+      allowNull: true,
+      get() {
+        return this.getDataValue("times").split(",");
+      },
+      set(value) {
+        this.setDataValue("times", value.join(","));
+      }
     }
   });
 };

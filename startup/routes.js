@@ -32,7 +32,7 @@ module.exports = app => {
   app.use("/api/accounts", accounts);
   app.use("/api/owners", owners);
   app.use("/api/customers", customers);
-  app.use("api/admins", admins);
+  app.use("/api/admins", admins);
 
   app.use(error);
 };

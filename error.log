@@ -2674,3 +2674,1953 @@
     '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:41:26)',
   timestamp: '2019-11-12T09:26:34.160Z'
 }
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n' +
+    '\t"time_come": 11,\n' +
+    '\t"time_leave": 13,\n' +
+    '\t"price":30000,\n' +
+    '\t"slotId":"2a1",\n' +
+    '\t"car_number":"HT26VB1986"\n' +
+    '\t"accountId":4,\n' +
+    '\t"yardId":1,\n' +
+    '}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-11-13T02:45:38.025Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`histories`, CONSTRAINT `histories_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-13T04:21:40.480Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'slots' of nullCannot read property 'slots' of null",
+  stack: "TypeError: Cannot read property 'slots' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:41:26)',
+  timestamp: '2019-11-13T07:04:48.309Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'slots' of nullCannot read property 'slots' of null",
+  stack: "TypeError: Cannot read property 'slots' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:41:26)',
+  timestamp: '2019-11-13T08:55:55.298Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-13T10:02:05.549Z'
+}
+{ level: 'error', timestamp: '2019-11-13T10:02:05.553Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-14T04:33:10.536Z'
+}
+{ level: 'error', timestamp: '2019-11-14T04:33:10.540Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-14T04:33:14.379Z'
+}
+{ level: 'error', timestamp: '2019-11-14T04:33:14.381Z' }
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T04:45:54.956Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:10:37.135Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:11:29.061Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:14:07.132Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:14:15.835Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:15:16.076Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:15:20.717Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-14T05:16:05.284Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-15T03:55:14.819Z'
+}
+{ level: 'error', timestamp: '2019-11-15T03:55:14.824Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-15T04:24:08.149Z'
+}
+{ level: 'error', timestamp: '2019-11-15T04:24:08.151Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-16T03:28:33.641Z'
+}
+{
+  message: 'notNull Violation: yard.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T04:04:28.592Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'split' of undefinedCannot read property 'split' of undefined",
+  stack: "TypeError: Cannot read property 'split' of undefined\n" +
+    '    at model.get (D:\\CarParking-BackEnd\\models\\yard.js:49:42)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3509:41)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3543:33)\n' +
+    '    at model.toJSON (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:4409:12)\n' +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:1123:12)\n' +
+    '    at ServerResponse.json (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:260:14)\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:75:9)',
+  timestamp: '2019-11-16T04:06:55.485Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'split' of undefinedCannot read property 'split' of undefined",
+  stack: "TypeError: Cannot read property 'split' of undefined\n" +
+    '    at model.get (D:\\CarParking-BackEnd\\models\\yard.js:49:42)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3509:41)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3543:33)\n' +
+    '    at model.toJSON (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:4409:12)\n' +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:1123:12)\n' +
+    '    at ServerResponse.json (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:260:14)\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:75:9)',
+  timestamp: '2019-11-16T04:06:55.620Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'split' of undefinedCannot read property 'split' of undefined",
+  stack: "TypeError: Cannot read property 'split' of undefined\n" +
+    '    at model.get (D:\\CarParking-BackEnd\\models\\yard.js:49:42)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3509:41)\n' +
+    '    at model.get (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3543:33)\n' +
+    '    at model.toJSON (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:4409:12)\n' +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:1123:12)\n' +
+    '    at ServerResponse.json (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\response.js:260:14)\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:75:9)',
+  timestamp: '2019-11-16T04:08:19.068Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'length' of undefinedCannot read property 'length' of undefined",
+  stack: "TypeError: Cannot read property 'length' of undefined\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:43:32)',
+  timestamp: '2019-11-16T09:57:33.891Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'length' of undefinedCannot read property 'length' of undefined",
+  stack: "TypeError: Cannot read property 'length' of undefined\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:48:32)',
+  timestamp: '2019-11-16T09:58:11.280Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:13:21.248Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:13:25.864Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:14:09.399Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:14:57.216Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:15:51.163Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:16:16.251Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:19:32.471Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:20:46.439Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:20:55.496Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:20:58.727Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:21:40.319Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:32:01.300Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:33:00.282Z'
+}
+{
+  message: 'notNull Violation: transaction.slotId cannot be null',
+  level: 'error',
+  timestamp: '2019-11-16T10:34:52.662Z'
+}
+{
+  level: 'error',
+  message: 'time_close is not definedtime_close is not defined',
+  stack: 'ReferenceError: time_close is not defined\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:48:34)',
+  timestamp: '2019-11-16T11:12:40.043Z'
+}
+{
+  level: 'error',
+  message: 'time_close is not definedtime_close is not defined',
+  stack: 'ReferenceError: time_close is not defined\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:48:34)',
+  timestamp: '2019-11-16T11:13:06.267Z'
+}
+{
+  level: 'error',
+  message: 'time_close is not definedtime_close is not defined',
+  stack: 'ReferenceError: time_close is not defined\n' +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:48:34)',
+  timestamp: '2019-11-16T11:13:50.449Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-18T04:24:22.738Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-18T04:28:18.494Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-18T04:45:04.325Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-18T04:45:51.002Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparkingdb2`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-18T04:50:02.342Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-18T07:11:26.747Z'
+}
+{ level: 'error', timestamp: '2019-11-18T07:11:26.751Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-18T07:20:18.219Z'
+}
+{ level: 'error', timestamp: '2019-11-18T07:20:18.220Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-18T07:20:22.923Z'
+}
+{ level: 'error', timestamp: '2019-11-18T07:20:22.924Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-18T07:20:25.750Z'
+}
+{ level: 'error', timestamp: '2019-11-18T07:20:25.751Z' }
+{
+  level: 'error',
+  message: 'WHERE parameter "yardId" has invalid "undefined" valueWHERE parameter "yardId" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "yardId" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-19T06:52:49.298Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "yardId" has invalid "undefined" valueWHERE parameter "yardId" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "yardId" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-19T06:53:28.301Z'
+}
+{
+  level: 'error',
+  message: 'accountId is not definedaccountId is not defined',
+  stack: 'ReferenceError: accountId is not defined\n' +
+    '    at show_history (D:\\CarParking-BackEnd\\controllers\\ownerController.js:29:25)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2019-11-19T07:22:47.694Z'
+}
+{
+  level: 'error',
+  message: 'accountId is not definedaccountId is not defined',
+  stack: 'ReferenceError: accountId is not defined\n' +
+    '    at show_history (D:\\CarParking-BackEnd\\controllers\\ownerController.js:29:25)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2019-11-19T07:22:49.529Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_history (D:\\CarParking-BackEnd\\controllers\\ownerController.js:32:41)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2019-11-19T07:23:03.287Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_history (D:\\CarParking-BackEnd\\controllers\\ownerController.js:32:40)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2019-11-19T07:24:54.891Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_history (D:\\CarParking-BackEnd\\controllers\\ownerController.js:32:40)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)',
+  timestamp: '2019-11-19T07:24:56.283Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-20T06:52:13.126Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-20T06:54:05.824Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'findAll' of undefinedCannot read property 'findAll' of undefined",
+  stack: "TypeError: Cannot read property 'findAll' of undefined\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:43:43)',
+  timestamp: '2019-11-20T08:12:22.405Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:47.916Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  timestamp: '2019-11-21T02:20:47.961Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:47.972Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:47.984Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.015Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.296Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.313Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.334Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.351Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'time_open' of nullCannot read property 'time_open' of null",
+  stack: "TypeError: Cannot read property 'time_open' of null\n" +
+    '    at show_yards_details (D:\\CarParking-BackEnd\\controllers\\customerController.js:69:19)',
+  timestamp: '2019-11-21T02:20:48.367Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`carparking_db`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`yardId`) REFERENCES `yards` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)',
+  level: 'error',
+  timestamp: '2019-11-21T02:47:06.552Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-22T02:26:46.050Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-22T02:27:48.192Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-22T02:28:05.580Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-22T02:28:31.956Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-22T02:29:00.432Z'
+}
+{
+  message: 'Cannot delete or update a parent row: a foreign key constraint fails',
+  level: 'error',
+  timestamp: '2019-11-22T02:29:04.262Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "username" has invalid "undefined" valueWHERE parameter "username" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "username" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-22T03:46:46.595Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "username" has invalid "undefined" valueWHERE parameter "username" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "username" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-22T03:47:42.377Z'
+}
+{
+  level: 'error',
+  message: "Invalid value { name: 'Nguyen Duc An' }Invalid value { name: 'Nguyen Duc An' }",
+  stack: "Error: Invalid value { name: 'Nguyen Duc An' }\n" +
+    '    at Object.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\sql-string.js:65:11)\n' +
+    '    at MySQLQueryGenerator.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:986:22)\n' +
+    '    at MySQLQueryGenerator._whereParseSingleValueObject (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2556:41)\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2274:19)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-22T03:50:03.760Z'
+}
+{
+  level: 'error',
+  message: "Invalid value { name: 'Nguyen Duc An' }Invalid value { name: 'Nguyen Duc An' }",
+  stack: "Error: Invalid value { name: 'Nguyen Duc An' }\n" +
+    '    at Object.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\sql-string.js:65:11)\n' +
+    '    at MySQLQueryGenerator.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:986:22)\n' +
+    '    at MySQLQueryGenerator._whereParseSingleValueObject (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2556:41)\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2274:19)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-22T03:50:05.655Z'
+}
+{
+  level: 'error',
+  message: "Invalid value { name: 'Nguyen' }Invalid value { name: 'Nguyen' }",
+  stack: "Error: Invalid value { name: 'Nguyen' }\n" +
+    '    at Object.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\sql-string.js:65:11)\n' +
+    '    at MySQLQueryGenerator.escape (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:986:22)\n' +
+    '    at MySQLQueryGenerator._whereParseSingleValueObject (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2556:41)\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2274:19)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-22T03:50:09.159Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%An%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%An%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%An%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.name' in 'on clause'Unknown column 'roles.name' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.name' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T03:56:12.492Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`name` LIKE '%Binh%';",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`name` LIKE '%Binh%';",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`name` LIKE '%Binh%';",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.name' in 'on clause'Unknown column 'roles.name' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.name' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T03:58:55.763Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%Binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.name' in 'on clause'Unknown column 'roles.name' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.name' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T03:59:29.727Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.name' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.name' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 AND `roles`.`name` LIKE '%binh%' LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.name' in 'on clause'Unknown column 'roles.name' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.name' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T03:59:52.806Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE ((`account`.`name` LIKE '%An%' AND `account`.`address` LIKE '%An%'));",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE ((`account`.`name` LIKE '%An%' AND `account`.`address` LIKE '%An%'));",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE ((`account`.`name` LIKE '%An%' AND `account`.`address` LIKE '%An%'));",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'account.address' in 'where clause'Unknown column 'account.address' in 'where clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'account.address' in 'where clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T04:02:28.711Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%An%';",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%An%';",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%An%';",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'account.address' in 'where clause'Unknown column 'account.address' in 'where clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'account.address' in 'where clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T04:03:35.589Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%Duy%';",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'account.address' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'account.address' in 'where clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%Duy%';",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND `roles`.`id` = 2 LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId` WHERE `account`.`address` LIKE '%Duy%';",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'account.address' in 'where clause'Unknown column 'account.address' in 'where clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'account.address' in 'where clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T04:03:53.943Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.address' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.address' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 OR `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.address' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.address' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 OR `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 OR `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.address' in 'on clause'Unknown column 'roles.address' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.address' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T04:06:48.664Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'roles.address' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.address' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 AND `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'roles.address' in 'on clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'roles.address' in 'on clause'",
+    sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 AND `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+    parameters: undefined
+  },
+  sql: "SELECT `account`.`id`, `account`.`username`, `account`.`password`, `account`.`status`, `account`.`name`, `account`.`birthday`, `account`.`gender`, `account`.`phone`, `account`.`image`, `account`.`balance`, `roles`.`id` AS `roles.id`, `roles`.`role_name` AS `roles.role_name`, `roles->account_role`.`accountId` AS `roles.account_role.accountId`, `roles->account_role`.`roleId` AS `roles.account_role.roleId`, `yard`.`id` AS `yard.id`, `yard`.`status` AS `yard.status`, `yard`.`address` AS `yard.address`, `yard`.`image_yard` AS `yard.image_yard`, `yard`.`latitude` AS `yard.latitude`, `yard`.`longitude` AS `yard.longitude`, `yard`.`time_open` AS `yard.time_open`, `yard`.`time_close` AS `yard.time_close`, `yard`.`price` AS `yard.price`, `yard`.`slot` AS `yard.slot`, `yard`.`times` AS `yard.times`, `yard`.`accountId` AS `yard.accountId` FROM `accounts` AS `account` INNER JOIN ( `account_roles` AS `roles->account_role` INNER JOIN `roles` AS `roles` ON `roles`.`id` = `roles->account_role`.`roleId`) ON `account`.`id` = `roles->account_role`.`accountId` AND (`roles`.`id` = 2 AND `roles`.`address` LIKE '%Duy%') LEFT OUTER JOIN `yards` AS `yard` ON `account`.`id` = `yard`.`accountId`;",
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'roles.address' in 'on clause'Unknown column 'roles.address' in 'on clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'roles.address' in 'on clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-22T04:06:57.904Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-25T08:44:11.175Z'
+}
+{ level: 'error', timestamp: '2019-11-25T08:44:11.178Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T01:54:15.658Z'
+}
+{ level: 'error', timestamp: '2019-11-26T01:54:15.662Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T01:58:15.440Z'
+}
+{ level: 'error', timestamp: '2019-11-26T01:58:15.442Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T01:58:45.860Z'
+}
+{ level: 'error', timestamp: '2019-11-26T01:58:45.861Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:00:05.658Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:00:05.661Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:04:29.748Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:04:29.750Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:05:59.847Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:05:59.849Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:08:17.811Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:08:17.812Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:11:08.263Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:11:08.265Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:11:34.930Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:11:34.931Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:12:21.095Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:12:21.097Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-26T02:13:46.628Z'
+}
+{ level: 'error', timestamp: '2019-11-26T02:13:46.630Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-27T01:25:04.812Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_all_transactions (D:\\CarParking-BackEnd\\controllers\\adminController.js:45:22)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-11-28T03:04:14.099Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_all_transactions (D:\\CarParking-BackEnd\\controllers\\adminController.js:45:36)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-11-28T03:04:57.142Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_all_transactions (D:\\CarParking-BackEnd\\controllers\\adminController.js:45:37)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-11-28T03:05:08.431Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_all_transactions (D:\\CarParking-BackEnd\\controllers\\adminController.js:45:26)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-11-28T03:05:23.573Z'
+}
+{
+  level: 'error',
+  message: 'name is not definedname is not defined',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at show_all_transactions (D:\\CarParking-BackEnd\\controllers\\adminController.js:45:26)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at D:\\CarParking-BackEnd\\startup\\routes.js:29:5\n' +
+    '    at newFn (D:\\CarParking-BackEnd\\node_modules\\express-async-errors\\index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\CarParking-BackEnd\\node_modules\\express\\lib\\router\\index.js:317:13)',
+  timestamp: '2019-11-28T03:05:24.762Z'
+}
+{
+  level: 'error',
+  message: 's.replace is not a functions.replace is not a function',
+  stack: 'TypeError: s.replace is not a function\n' +
+    '    at Object.removeTicks (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\utils.js:354:12)\n' +
+    '    at Object.quoteIdentifier (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator\\helpers\\quote.js:47:35)\n' +
+    '    at MySQLQueryGenerator.quoteIdentifier (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:891:24)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1517:74\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.generateInclude (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1481:52)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1183:34)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-11-28T03:08:42.884Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'yard.yardId' in 'field list'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'yard.yardId' in 'field list'",
+    sql: 'SELECT `transaction`.`id`, `transaction`.`day`, `transaction`.`time_come`, `transaction`.`time_leave`, `transaction`.`price`, `transaction`.`car_number`, `transaction`.`accountId`, `transaction`.`yardId`, `account`.`id` AS `account.id`, `account`.`name` AS `account.name`, `yard`.`id` AS `yard.id`, `yard`.`yardId` AS `yard.yardId`, `yard->account`.`id` AS `yard.account.id`, `yard->account`.`name` AS `yard.account.name` FROM `transactions` AS `transaction` LEFT OUTER JOIN `accounts` AS `account` ON `transaction`.`accountId` = `account`.`id` LEFT OUTER JOIN `yards` AS `yard` ON `transaction`.`yardId` = `yard`.`id` LEFT OUTER JOIN `accounts` AS `yard->account` ON `yard`.`accountId` = `yard->account`.`id`;',
+    parameters: undefined
+  },
+  original: Error: Unknown column 'yard.yardId' in 'field list'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'yard.yardId' in 'field list'",
+    sql: 'SELECT `transaction`.`id`, `transaction`.`day`, `transaction`.`time_come`, `transaction`.`time_leave`, `transaction`.`price`, `transaction`.`car_number`, `transaction`.`accountId`, `transaction`.`yardId`, `account`.`id` AS `account.id`, `account`.`name` AS `account.name`, `yard`.`id` AS `yard.id`, `yard`.`yardId` AS `yard.yardId`, `yard->account`.`id` AS `yard.account.id`, `yard->account`.`name` AS `yard.account.name` FROM `transactions` AS `transaction` LEFT OUTER JOIN `accounts` AS `account` ON `transaction`.`accountId` = `account`.`id` LEFT OUTER JOIN `yards` AS `yard` ON `transaction`.`yardId` = `yard`.`id` LEFT OUTER JOIN `accounts` AS `yard->account` ON `yard`.`accountId` = `yard->account`.`id`;',
+    parameters: undefined
+  },
+  sql: 'SELECT `transaction`.`id`, `transaction`.`day`, `transaction`.`time_come`, `transaction`.`time_leave`, `transaction`.`price`, `transaction`.`car_number`, `transaction`.`accountId`, `transaction`.`yardId`, `account`.`id` AS `account.id`, `account`.`name` AS `account.name`, `yard`.`id` AS `yard.id`, `yard`.`yardId` AS `yard.yardId`, `yard->account`.`id` AS `yard.account.id`, `yard->account`.`name` AS `yard.account.name` FROM `transactions` AS `transaction` LEFT OUTER JOIN `accounts` AS `account` ON `transaction`.`accountId` = `account`.`id` LEFT OUTER JOIN `yards` AS `yard` ON `transaction`.`yardId` = `yard`.`id` LEFT OUTER JOIN `accounts` AS `yard->account` ON `yard`.`accountId` = `yard->account`.`id`;',
+  parameters: undefined,
+  level: 'error',
+  message: "Unknown column 'yard.yardId' in 'field list'Unknown column 'yard.yardId' in 'field list'",
+  stack: "SequelizeDatabaseError: Unknown column 'yard.yardId' in 'field list'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-11-28T03:10:47.339Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-11-28T03:16:17.552Z'
+}
+{ level: 'error', timestamp: '2019-11-28T03:16:17.558Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-11-29T06:45:02.884Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'latitude' of undefinedCannot read property 'latitude' of undefined",
+  stack: "TypeError: Cannot read property 'latitude' of undefined\n" +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:317:50)',
+  timestamp: '2019-12-01T05:03:03.708Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'latitude' of undefinedCannot read property 'latitude' of undefined",
+  stack: "TypeError: Cannot read property 'latitude' of undefined\n" +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:317:50)',
+  timestamp: '2019-12-01T05:03:05.447Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'latitude' of undefinedCannot read property 'latitude' of undefined",
+  stack: "TypeError: Cannot read property 'latitude' of undefined\n" +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:317:50)',
+  timestamp: '2019-12-01T05:03:25.623Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'latitude' of undefinedCannot read property 'latitude' of undefined",
+  stack: "TypeError: Cannot read property 'latitude' of undefined\n" +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:317:50)',
+  timestamp: '2019-12-01T05:05:02.814Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'latitude' of undefinedCannot read property 'latitude' of undefined",
+  stack: "TypeError: Cannot read property 'latitude' of undefined\n" +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:317:50)',
+  timestamp: '2019-12-01T05:05:27.231Z'
+}
+{
+  level: 'error',
+  message: 'yard is not definedyard is not defined',
+  stack: 'ReferenceError: yard is not defined\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:322:14)',
+  timestamp: '2019-12-01T05:06:53.818Z'
+}
+{
+  level: 'error',
+  message: 'yard is not definedyard is not defined',
+  stack: 'ReferenceError: yard is not defined\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:322:14)',
+  timestamp: '2019-12-01T05:06:55.398Z'
+}
+{
+  level: 'error',
+  message: 'Assignment to constant variable.Assignment to constant variable.',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:323:21)',
+  timestamp: '2019-12-01T05:17:41.252Z'
+}
+{
+  level: 'error',
+  message: 'Assignment to constant variable.Assignment to constant variable.',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:327:7)',
+  timestamp: '2019-12-01T05:18:24.470Z'
+}
+{
+  level: 'error',
+  message: 'Assignment to constant variable.Assignment to constant variable.',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:327:7)',
+  timestamp: '2019-12-01T05:18:25.691Z'
+}
+{
+  level: 'error',
+  message: 'Assignment to constant variable.Assignment to constant variable.',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:327:7)',
+  timestamp: '2019-12-01T05:18:32.606Z'
+}
+{
+  level: 'error',
+  message: 'Assignment to constant variable.Assignment to constant variable.',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at show_nearest_address (D:\\CarParking-BackEnd\\controllers\\customerController.js:327:7)',
+  timestamp: '2019-12-01T05:18:52.262Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "id": 1,\r\n' +
+    '        "day": "2019-11-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    '}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-02T08:01:14.990Z'
+}
+{
+  level: 'error',
+  message: 'WHERE parameter "day" has invalid "undefined" valueWHERE parameter "day" has invalid "undefined" value',
+  stack: 'Error: WHERE parameter "day" has invalid "undefined" value\n' +
+    '    at MySQLQueryGenerator.whereItemQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2184:13)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2173:25\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at MySQLQueryGenerator.whereItemsQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2171:35)\n' +
+    '    at MySQLQueryGenerator.getWhereConditions (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2583:19)\n' +
+    '    at MySQLQueryGenerator.selectQuery (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1315:28)\n' +
+    '    at QueryInterface.select (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\query-interface.js:1122:27)\n' +
+    '    at D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:1757:34\n' +
+    '    at tryCatcher (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n' +
+    '    at Promise._settlePromise (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n' +
+    '    at Promise._settlePromises (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n' +
+    '    at _drainQueueStep (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n' +
+    '    at _drainQueue (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n' +
+    '    at Async._drainQueues (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n' +
+    '    at Immediate.Async.drainQueues [as _onImmediate] (D:\\CarParking-BackEnd\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n' +
+    '    at processImmediate (internal/timers.js:439:21)',
+  timestamp: '2019-12-02T08:18:26.832Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:27:43.795Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:27:47.304Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:32:37.387Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:33:21.760Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:34:10.015Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:34:39.752Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:35:01.575Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:36:21.273Z'
+}
+{
+  message: 'notNull Violation: transaction.slot cannot be null',
+  level: 'error',
+  timestamp: '2019-12-02T08:37:28.272Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n' +
+    '\t"day": 2019/12/08,\n' +
+    '\t"time_come": 7,\n' +
+    '\t"time_leave": 10,\n' +
+    '\t"status": "true"\n' +
+    '}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-06T06:54:12.880Z'
+}
+{ level: 'error', timestamp: '2019-12-06T06:56:49.103Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-12T03:18:50.113Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:28:19.133Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:30:33.077Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:35:02.793Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:35:39.975Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:37:40.505Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:37:43.987Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:38:43.883Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:39:39.868Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:40:05.408Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:40:12.936Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:40:21.677Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:41:26.300Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:42:26.000Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:43:07.095Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n\t"car_number":"GFD54FDSDS"\n\t"transactionId": 4\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-13T06:43:53.052Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-13T08:07:10.373Z'
+}
+{ level: 'error', timestamp: '2019-12-13T08:07:10.376Z' }

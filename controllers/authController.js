@@ -15,7 +15,7 @@ const login = async (req, res) => {
       include: [
         {
           model: Role,
-          where: { [Op.or]: [{ id: [2, 3] }] },
+          where: { [Op.or]: [{ id: [1, 2, 3] }] },
           through: { attributes: [] }
         }
       ]

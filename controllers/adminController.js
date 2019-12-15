@@ -1,21 +1,17 @@
 const { logger } = require("../middlewares/logging");
 const ErrorHelper = require("../helpers/ErrorHelper");
-const { Account, AccountRole, Car, Role } = require("../startup/db");
+const { Account, Role, Transaction, Yard } = require("../startup/db");
 
-const show_list_account = async (req, res) => {
-  try {
-    let accounts = await Account.findAll();
-    res.json(accounts);
-  } catch (error) {
-    logger.error(error.message, error);
-    ErrorHelper.InternalServerError(res, error);
-  }
-};
-
-const show_list_customers = async (req, res) => {
+const show_all_customers = async (req, res) => {
   try {
     let customers = await Account.findAll({
-      include: [{ model: Role, where: { id: 3 }, through: { attributes: [] } }]
+      include: [
+        {
+          model: Role,
+          where: { id: 3 },
+          through: { attributes: [] }
+        }
+      ]
     });
     res.json(customers);
   } catch (error) {
@@ -23,8 +19,7 @@ const show_list_customers = async (req, res) => {
     ErrorHelper.InternalServerError(res, error);
   }
 };
-
-const show_list_owners = async (req, res) => {
+const show_all_owners = async (req, res) => {
   try {
     let owners = await Account.findAll({
       include: [
@@ -41,21 +36,21 @@ const show_list_owners = async (req, res) => {
     ErrorHelper.InternalServerError(res, error);
   }
 };
-
-const show_list_cars = async (req, res) => {
+const show_all_transactions = async (req, res) => {
   try {
-    let cars = await Car.findAll();
-    res.json(cars);
-  } catch (error) {
-    logger.error(error.message, error);
-    ErrorHelper.InternalServerError(res, error);
-  }
-};
-
-const show_list_yards = async (req, res) => {
-  try {
-    let yards = await Yard.findAll();
-    res.json(yards);
+    let transactions = await Transaction.findAll({
+      include: [
+        {
+          model: Account,
+          attributes: ["name"]
+        },
+        {
+          model: Yard,
+          include: [{ model: Account, attributes: ["name"] }]
+        }
+      ]
+    });
+    res.json(transactions);
   } catch (error) {
     logger.error(error.message, error);
     ErrorHelper.InternalServerError(res, error);
@@ -63,13 +58,7 @@ const show_list_yards = async (req, res) => {
 };
 
 module.exports = {
-  show_list_account,
-  show_list_customers,
-  show_list_owners,
-  show_list_cars,
-  show_list_yards
-  // show_list_banned,
-  // show_list_histories,
-  // show_list_parking_now,
-  // show_listbooking_time
+  show_all_customers,
+  show_all_owners,
+  show_all_transactions
 };

@@ -1,29 +1,33 @@
 module.exports = (sequelize, type) => {
   {
-    return sequelize.define("car", {
+    return sequelize.define("transaction", {
       id: {
         type: type.INTEGER,
         primaryKey: true,
         autoIncrement: true
       },
-      color: {
+      day: {
         type: type.STRING,
         allowNull: false
       },
-      brand: {
-        type: type.STRING,
+      time_come: {
+        type: type.INTEGER,
         allowNull: false
       },
-      car_type: {
-        type: type.STRING,
+      time_leave: {
+        type: type.INTEGER,
         allowNull: false
       },
-      // point: {
-      //   type: type.INTEGER,
-      //   allowNull: false
-      // },
+      price: {
+        type: type.FLOAT,
+        allowNull: false
+      },
       car_number: {
         type: type.STRING,
+        allowNull: false
+      },
+      slot: {
+        type: type.INTEGER,
         allowNull: false
       }
     });

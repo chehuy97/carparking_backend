@@ -25,6 +25,10 @@ module.exports = (sequelize, type) => {
       slotId: {
         type: type.STRING,
         allowNull: false
+      },
+      car_number: {
+        type: type.STRING,
+        allowNull: false
       }
     });
   }
