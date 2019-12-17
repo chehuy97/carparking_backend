@@ -883,8 +883,36 @@ const applyFake = async () => {
   });
   /// fake report
   report1 = await Report.create({
-    car_number: "JD556DDSDF",
+    car_number: "JD556DDSt",
     transactionId: 2
+  });
+  report2 = await Report.create({
+    car_number: "RK6TSS87",
+    transactionId: 3
+  });
+  report3 = await Report.create({
+    car_number: "TI89DD89P",
+    transactionId: 4
+  });
+  report4 = await Report.create({
+    car_number: "DK90JDKB7",
+    transactionId: 5
+  });
+  report5 = await Report.create({
+    car_number: "HT09JKL98S",
+    transactionId: 6
+  });
+  report6 = await Report.create({
+    car_number: "VK67DYY97D",
+    transactionId: 7
+  });
+  report7 = await Report.create({
+    car_number: "ER22DUH90O",
+    transactionId: 2
+  });
+  report8 = await Report.create({
+    car_number: "JD556DDSDF",
+    transactionId: 8
   });
 };
 

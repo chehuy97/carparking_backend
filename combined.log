@@ -13124,3 +13124,123 @@
   level: 'info',
   timestamp: '2019-12-13T08:19:34.361Z'
 }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T02:58:58.261Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T02:58:58.732Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T08:54:10.392Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T08:54:10.851Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T08:55:37.837Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T08:55:38.284Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T08:55:41.972Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T08:55:42.462Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T08:56:27.432Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T08:56:27.894Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-15T08:57:07.285Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-15T08:57:07.737Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-16T02:46:04.024Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-16T02:46:06.162Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-16T02:55:02.012Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-16T02:55:02.518Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-16T06:15:44.053Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-16T06:15:46.160Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-16T06:16:11.749Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-16T06:16:12.292Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-16T06:30:45.019Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-16T06:30:45.468Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T10:01:37.691Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T10:01:38.163Z'
+}

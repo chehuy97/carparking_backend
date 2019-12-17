@@ -1,6 +1,6 @@
 const { logger } = require("../middlewares/logging");
 const ErrorHelper = require("../helpers/ErrorHelper");
-const { Account, Role, Transaction, Yard } = require("../startup/db");
+const { Account, Role, Transaction, Yard, Report } = require("../startup/db");
 
 const show_all_customers = async (req, res) => {
   try {
@@ -57,8 +57,25 @@ const show_all_transactions = async (req, res) => {
   }
 };
 
+const show_all_reports = async (req, res) => {
+  try {
+    let reports = await Report.findAll({
+      include: [
+        {
+          model: Transaction
+        }
+      ]
+    });
+    res.json(reports);
+  } catch (error) {
+    logger.error(error.message, error);
+    ErrorHelper.InternalServerError(res, error);
+  }
+};
+
 module.exports = {
   show_all_customers,
   show_all_owners,
-  show_all_transactions
+  show_all_transactions,
+  show_all_reports
 };

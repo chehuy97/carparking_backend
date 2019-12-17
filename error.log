@@ -4624,3 +4624,13 @@
   timestamp: '2019-12-13T08:07:10.373Z'
 }
 { level: 'error', timestamp: '2019-12-13T08:07:10.376Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-16T02:46:06.162Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-16T06:15:46.160Z'
+}
