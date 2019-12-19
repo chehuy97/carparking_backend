@@ -13244,3 +13244,914 @@
   level: 'info',
   timestamp: '2019-12-17T10:01:38.163Z'
 }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T10:14:05.211Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T10:14:05.647Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:01:46.872Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:01:47.398Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:03:03.335Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:03:03.864Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:06:17.997Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:06:18.585Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "day": "2019-20-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "slot": 1,\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    ' }',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-17T16:07:51.974Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "day": "2019-20-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "slot": 1,\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    ' }',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-17T16:08:27.129Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "day": "2019-20-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "slot": 1,\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    ' }',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-17T16:09:17.843Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "day": "2019-20-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "slot": 1,\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    ' }',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-17T16:10:36.069Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n' +
+    '        "day": "2019-20-12",\r\n' +
+    '        "time_come": 7,\r\n' +
+    '        "time_leave": 9,\r\n' +
+    '        "price": 30000,\r\n' +
+    '        "car_number": "VK96DE9864",\r\n' +
+    '        "slot": 1,\r\n' +
+    '        "accountId": 1,\r\n' +
+    '        "yardId": 1,\r\n' +
+    ' }',
+  type: 'entity.parse.failed',
+  level: 'error',
+  timestamp: '2019-12-17T16:11:51.899Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:23:17.161Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:23:17.735Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Missing where attribute in the options parameterMissing where attribute in the options parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3427:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at booking (D:\\CarParking-BackEnd\\controllers\\customerController.js:238:40)',
+  timestamp: '2019-12-17T16:23:24.303Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:23:40.431Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:23:40.988Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:24:11.572Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:24:16.343Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:24:25.898Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:24:26.345Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:28:22.641Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:28:23.106Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Expected plain object, array or sequelize method in the options.where parameterExpected plain object, array or sequelize method in the options.where parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Expected plain object, array or sequelize method in the options.where parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3428:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at booking (D:\\CarParking-BackEnd\\controllers\\customerController.js:238:40)',
+  timestamp: '2019-12-17T16:28:29.495Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:28:44.280Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:28:44.775Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Expected plain object, array or sequelize method in the options.where parameterExpected plain object, array or sequelize method in the options.where parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Expected plain object, array or sequelize method in the options.where parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3428:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at booking (D:\\CarParking-BackEnd\\controllers\\customerController.js:238:40)',
+  timestamp: '2019-12-17T16:28:53.033Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-17T16:58:25.065Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-17T16:58:25.527Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:15:38.392Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:15:38.918Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:18:07.133Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:18:07.614Z'
+}
+{
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  level: 'error',
+  message: 'Expected plain object, array or sequelize method in the options.where parameterExpected plain object, array or sequelize method in the options.where parameter',
+  stack: 'AssertionError [ERR_ASSERTION]: Expected plain object, array or sequelize method in the options.where parameter\n' +
+    '    at Function._optionsMustContainWhere (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3428:5)\n' +
+    '    at Function.update (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\model.js:3053:10)\n' +
+    '    at booking (D:\\CarParking-BackEnd\\controllers\\customerController.js:238:40)',
+  timestamp: '2019-12-18T00:18:13.415Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:18:46.587Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:18:47.106Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'accountId' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Prepare.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'accountId' in 'where clause'",
+    sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+    parameters: [ 490000, 1 ]
+  },
+  original: Error: Unknown column 'accountId' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Prepare.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'accountId' in 'where clause'",
+    sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+    parameters: [ 490000, 1 ]
+  },
+  sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+  parameters: [ 490000, 1 ],
+  level: 'error',
+  message: "Unknown column 'accountId' in 'where clause'Unknown column 'accountId' in 'where clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'accountId' in 'where clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at handler (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Prepare.onResult (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:595:11)\n' +
+    '    at Prepare.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-12-18T00:18:50.255Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:19:16.722Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:19:17.208Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Unknown column 'accountId' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Prepare.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'accountId' in 'where clause'",
+    sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+    parameters: [ 490000, 1 ]
+  },
+  original: Error: Unknown column 'accountId' in 'where clause'
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Prepare.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'accountId' in 'where clause'",
+    sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+    parameters: [ 490000, 1 ]
+  },
+  sql: 'UPDATE `accounts` SET `balance`=? WHERE `accountId` = ?',
+  parameters: [ 490000, 1 ],
+  level: 'error',
+  message: "Unknown column 'accountId' in 'where clause'Unknown column 'accountId' in 'where clause'",
+  stack: "SequelizeDatabaseError: Unknown column 'accountId' in 'where clause'\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at handler (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Prepare.onResult (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:595:11)\n' +
+    '    at Prepare.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-12-18T00:19:20.472Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:19:42.084Z'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: Error: Table 'carparking_db.transactions' doesn't exist
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlState: '42S02',
+    sqlMessage: "Table 'carparking_db.transactions' doesn't exist",
+    sql: "SELECT `id`, `day`, `time_come`, `time_leave`, `price`, `car_number`, `slot`, `accountId`, `yardId` FROM `transactions` AS `transaction` WHERE `transaction`.`day` = '2019-20-12' AND `transaction`.`time_come` = 7 AND `transaction`.`yardId` = 1;",
+    parameters: undefined
+  },
+  original: Error: Table 'carparking_db.transactions' doesn't exist
+      at Packet.asError (D:\CarParking-BackEnd\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\CarParking-BackEnd\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:408:32)
+      at PacketParser.onPacket (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:70:12)
+      at PacketParser.executeStart (D:\CarParking-BackEnd\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\CarParking-BackEnd\node_modules\mysql2\lib\connection.js:77:25)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlState: '42S02',
+    sqlMessage: "Table 'carparking_db.transactions' doesn't exist",
+    sql: "SELECT `id`, `day`, `time_come`, `time_leave`, `price`, `car_number`, `slot`, `accountId`, `yardId` FROM `transactions` AS `transaction` WHERE `transaction`.`day` = '2019-20-12' AND `transaction`.`time_come` = 7 AND `transaction`.`yardId` = 1;",
+    parameters: undefined
+  },
+  sql: "SELECT `id`, `day`, `time_come`, `time_leave`, `price`, `car_number`, `slot`, `accountId`, `yardId` FROM `transactions` AS `transaction` WHERE `transaction`.`day` = '2019-20-12' AND `transaction`.`time_come` = 7 AND `transaction`.`yardId` = 1;",
+  parameters: undefined,
+  level: 'error',
+  message: "Table 'carparking_db.transactions' doesn't existTable 'carparking_db.transactions' doesn't exist",
+  stack: "SequelizeDatabaseError: Table 'carparking_db.transactions' doesn't exist\n" +
+    '    at Query.formatError (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:244:16)\n' +
+    '    at Query.handler [as onResult] (D:\\CarParking-BackEnd\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:51:23)\n' +
+    '    at Query.execute (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\commands\\command.js:30:14)\n' +
+    '    at Connection.handlePacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:408:32)\n' +
+    '    at PacketParser.onPacket (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:70:12)\n' +
+    '    at PacketParser.executeStart (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n' +
+    '    at Socket.<anonymous> (D:\\CarParking-BackEnd\\node_modules\\mysql2\\lib\\connection.js:77:25)\n' +
+    '    at Socket.emit (events.js:209:13)\n' +
+    '    at addChunk (_stream_readable.js:305:12)\n' +
+    '    at readableAddChunk (_stream_readable.js:286:11)\n' +
+    '    at Socket.Readable.push (_stream_readable.js:220:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)',
+  timestamp: '2019-12-18T00:19:46.526Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:19:47.835Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:08.425Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:08.890Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:27.989Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:28.510Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:30.095Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:20:30.579Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:41:57.517Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:41:58.041Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:57:34.139Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:57:34.638Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:58:06.898Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:58:07.377Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:58:56.946Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:58:57.438Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T00:59:42.146Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T00:59:42.571Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:00:13.444Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:00:13.906Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:02:15.365Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:02:15.856Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:03:43.746Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:03:44.358Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:06.104Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:06.535Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:18.231Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:18.685Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:50.216Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:04:50.635Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:05:04.670Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:05:05.036Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:07:38.886Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:07:39.328Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:08:07.106Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:08:07.551Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:11:14.579Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:11:15.811Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:12:18.600Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:12:19.027Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:16:51.137Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:16:51.551Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:17:20.351Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:17:20.811Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:19:13.568Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:19:13.980Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:20:33.965Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:20:34.387Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:20:54.402Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:20:54.862Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:21:17.571Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:21:18.040Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:25:48.340Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:25:48.768Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:27:25.536Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:27:25.986Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:28:01.054Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:28:01.644Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'car_number' of nullCannot read property 'car_number' of null",
+  stack: "TypeError: Cannot read property 'car_number' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:95:37)',
+  timestamp: '2019-12-18T01:33:42.462Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'car_number' of nullCannot read property 'car_number' of null",
+  stack: "TypeError: Cannot read property 'car_number' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:95:37)',
+  timestamp: '2019-12-18T01:33:45.771Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:36:49.452Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:36:49.892Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:51:40.313Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:51:40.740Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T01:52:03.888Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T01:52:04.371Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T02:37:56.719Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T02:37:57.172Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T02:51:18.648Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T02:51:19.109Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T02:51:49.938Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T02:51:50.390Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'car_number' of nullCannot read property 'car_number' of null",
+  stack: "TypeError: Cannot read property 'car_number' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:95:37)',
+  timestamp: '2019-12-18T02:54:36.144Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'car_number' of nullCannot read property 'car_number' of null",
+  stack: "TypeError: Cannot read property 'car_number' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:95:37)',
+  timestamp: '2019-12-18T02:54:38.371Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T02:54:58.512Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T02:54:58.928Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T03:26:47.697Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T03:26:48.101Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-18T03:35:32.609Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-18T03:35:35.186Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'balance' of nullCannot read property 'balance' of null",
+  stack: "TypeError: Cannot read property 'balance' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
+  timestamp: '2019-12-18T04:42:20.656Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'balance' of nullCannot read property 'balance' of null",
+  stack: "TypeError: Cannot read property 'balance' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
+  timestamp: '2019-12-18T04:42:21.868Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'balance' of nullCannot read property 'balance' of null",
+  stack: "TypeError: Cannot read property 'balance' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
+  timestamp: '2019-12-18T04:42:22.718Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'balance' of nullCannot read property 'balance' of null",
+  stack: "TypeError: Cannot read property 'balance' of null\n" +
+    '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
+  timestamp: '2019-12-18T04:42:23.160Z'
+}

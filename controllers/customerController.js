@@ -231,6 +231,14 @@ const booking = async (req, res) => {
       accountId: req.body.accountId,
       yardId: req.body.yardId
     });
+    let customer = await Account.findOne({
+      where: { id: req.body.accountId }
+    });
+    var price = customer.balance - req.body.price;
+    let updateCustomer = await Account.update(
+      { balance: price },
+      { where: { id: req.body.accountId } }
+    );
     res.json(slot);
   } catch (error) {
     logger.error(error.message, error);

@@ -1,6 +1,13 @@
 const { logger } = require("../middlewares/logging");
 const ErrorHelper = require("../helpers/ErrorHelper");
-const { Account, Role, Transaction, Yard, Report } = require("../startup/db");
+const {
+  Account,
+  Role,
+  Transaction,
+  Yard,
+  Report,
+  Car
+} = require("../startup/db");
 
 const show_all_customers = async (req, res) => {
   try {
@@ -72,10 +79,40 @@ const show_all_reports = async (req, res) => {
     ErrorHelper.InternalServerError(res, error);
   }
 };
-
+const report_handling = async (req, res) => {
+  try {
+    let report = await Report.findOne({
+      where: { id: req.params.reportId },
+      include: [
+        {
+          model: Transaction
+        }
+      ]
+    });
+    let customerViolation = await Account.findOne({
+      include: {
+        model: Car,
+        where: { car_number: report.car_number }
+      }
+    });
+    var newBalance = customerViolation.balance - 2 * report.transaction.price;
+    let updateCustomer = await Account.update(
+      { balance: newBalance },
+      { where: { id: customerViolation.id } }
+    );
+    let deleteReport = await Report.destroy({
+      where: { id: report.id }
+    });
+    res.json(updateCustomer);
+  } catch (error) {
+    logger.error(error.message, error);
+    ErrorHelper.InternalServerError(res, error);
+  }
+};
 module.exports = {
   show_all_customers,
   show_all_owners,
   show_all_transactions,
-  show_all_reports
+  show_all_reports,
+  report_handling
 };

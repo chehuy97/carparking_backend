@@ -101,7 +101,7 @@ const applyFake = async () => {
     phone: "0763129730",
     image:
       "https://i.pinimg.com/originals/69/36/ca/6936cae9fc169732b6d933305571f402.jpg",
-    balance: 120000
+    balance: 520000
   });
   account2 = await Account.create({
     username: "nguyenan96",
@@ -134,7 +134,7 @@ const applyFake = async () => {
     phone: "0797903674",
     image:
       "https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/1/1f/Boy-cute-my-love-nice-Favim.com-2847742.jpg/revision/latest?cb=20170728233309",
-    balance: 5646000
+    balance: 500000
   });
   account5 = await Account.create({
     username: "nguyendung92",
@@ -728,9 +728,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction2 = await Transaction.create({
-    day: "2019-12-13",
-    time_come: 8,
-    time_leave: 10,
+    day: "2019-12-18",
+    time_come: 12,
+    time_leave: 14,
     price: 30000,
     car_number: "HT26VB1986",
     slot: 1,
@@ -738,9 +738,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction3 = await Transaction.create({
-    day: "2019-12-13",
-    time_come: 8,
-    time_leave: 11,
+    day: "2019-12-18",
+    time_come: 12,
+    time_leave: 15,
     price: 45000,
     car_number: "HT26VB1986",
     slot: 2,
@@ -748,7 +748,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction4 = await Transaction.create({
-    day: "2019-12-13",
+    day: "2019-12-18",
     time_come: 13,
     time_leave: 15,
     price: 15000,
@@ -758,9 +758,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction5 = await Transaction.create({
-    day: "2019-12-13",
-    time_come: 16,
-    time_leave: 17,
+    day: "2019-12-18",
+    time_come: 17,
+    time_leave: 18,
     price: 15000,
     car_number: "HT26VB1986",
     slot: 1,
@@ -768,9 +768,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction6 = await Transaction.create({
-    day: "2019-12-13",
-    time_come: 16,
-    time_leave: 17,
+    day: "2019-12-18",
+    time_come: 17,
+    time_leave: 18,
     slot: 2,
     price: 15000,
     car_number: "HT26VB1986",
@@ -778,7 +778,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction7 = await Transaction.create({
-    day: "2019-12-13",
+    day: "2019-12-18",
     time_come: 8,
     time_leave: 12,
     price: 120000,
@@ -788,7 +788,7 @@ const applyFake = async () => {
     yardId: 2
   });
   transaction8 = await Transaction.create({
-    day: "2019-12-13",
+    day: "2019-12-18",
     time_come: 15,
     time_leave: 16,
     price: 20000,
@@ -798,7 +798,7 @@ const applyFake = async () => {
     yardId: 2
   });
   transaction9 = await Transaction.create({
-    day: "2019-12-14",
+    day: "2019-12-19",
     time_come: 11,
     time_leave: 13,
     price: 15000,
@@ -808,7 +808,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction10 = await Transaction.create({
-    day: "2019-12-14",
+    day: "2019-12-19",
     time_come: 11,
     time_leave: 13,
     price: 15000,
@@ -818,9 +818,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction11 = await Transaction.create({
-    day: "2019-12-15",
-    time_come: 9,
-    time_leave: 10,
+    day: "2019-12-19",
+    time_come: 6,
+    time_leave: 8,
     price: 15000,
     car_number: "HT26VB1986",
     slot: 1,
@@ -828,9 +828,9 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction12 = await Transaction.create({
-    day: "2019-12-15",
-    time_come: 9,
-    time_leave: 10,
+    day: "2019-12-19",
+    time_come: 6,
+    time_leave: 8,
     price: 15000,
     car_number: "HT26VB1986",
     slot: 2,
@@ -838,7 +838,87 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction13 = await Transaction.create({
-    day: "2019-12-16",
+    day: "2019-12-19",
+    time_come: 18,
+    time_leave: 19,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction14 = await Transaction.create({
+    day: "2019-12-19",
+    time_come: 18,
+    time_leave: 19,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction13 = await Transaction.create({
+    day: "2019-12-19",
+    time_come: 17,
+    time_leave: 20,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction14 = await Transaction.create({
+    day: "2019-12-19",
+    time_come: 17,
+    time_leave: 20,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction15 = await Transaction.create({
+    day: "2019-12-20",
+    time_come: 6,
+    time_leave: 7,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction16 = await Transaction.create({
+    day: "2019-12-20",
+    time_come: 6,
+    time_leave: 7,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction17 = await Transaction.create({
+    day: "2019-12-20",
+    time_come: 10,
+    time_leave: 12,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction18 = await Transaction.create({
+    day: "2019-12-20",
+    time_come: 10,
+    time_leave: 12,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction19 = await Transaction.create({
+    day: "2019-12-21",
     time_come: 14,
     time_leave: 17,
     price: 15000,
@@ -847,10 +927,50 @@ const applyFake = async () => {
     accountId: 4,
     yardId: 1
   });
-  transaction14 = await Transaction.create({
-    day: "2019-12-16",
+  transaction20 = await Transaction.create({
+    day: "2019-12-21",
     time_come: 14,
     time_leave: 18,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction21 = await Transaction.create({
+    day: "2019-12-22",
+    time_come: 6,
+    time_leave: 8,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction20 = await Transaction.create({
+    day: "2019-12-22",
+    time_come: 6,
+    time_leave: 8,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 2,
+    accountId: 1,
+    yardId: 1
+  });
+  transaction19 = await Transaction.create({
+    day: "2019-12-22",
+    time_come: 12,
+    time_leave: 17,
+    price: 15000,
+    car_number: "HT26VB1986",
+    slot: 1,
+    accountId: 4,
+    yardId: 1
+  });
+  transaction20 = await Transaction.create({
+    day: "2019-12-22",
+    time_come: 12,
+    time_leave: 17,
     price: 15000,
     car_number: "HT26VB1986",
     slot: 2,
@@ -911,8 +1031,8 @@ const applyFake = async () => {
     transactionId: 2
   });
   report8 = await Report.create({
-    car_number: "JD556DDSDF",
-    transactionId: 8
+    car_number: "HT26VB1986",
+    transactionId: 10
   });
 };
 
