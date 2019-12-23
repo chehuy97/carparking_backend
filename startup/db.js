@@ -634,7 +634,7 @@ const applyFake = async () => {
     time_open: 5,
     time_close: 22,
     price: 20000,
-    slot: 1,
+    slot: 2,
     times: [
       "*",
       "*",
@@ -728,7 +728,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction2 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 12,
     time_leave: 14,
     price: 30000,
@@ -738,7 +738,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction3 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 12,
     time_leave: 15,
     price: 45000,
@@ -748,7 +748,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction4 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 13,
     time_leave: 15,
     price: 15000,
@@ -758,7 +758,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction5 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 17,
     time_leave: 18,
     price: 15000,
@@ -768,7 +768,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction6 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 17,
     time_leave: 18,
     slot: 2,
@@ -778,7 +778,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction7 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 8,
     time_leave: 12,
     price: 120000,
@@ -788,7 +788,7 @@ const applyFake = async () => {
     yardId: 2
   });
   transaction8 = await Transaction.create({
-    day: "2019-12-18",
+    day: "2019-12-22",
     time_come: 15,
     time_leave: 16,
     price: 20000,
@@ -798,7 +798,7 @@ const applyFake = async () => {
     yardId: 2
   });
   transaction9 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 11,
     time_leave: 13,
     price: 15000,
@@ -808,7 +808,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction10 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 11,
     time_leave: 13,
     price: 15000,
@@ -818,7 +818,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction11 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 6,
     time_leave: 8,
     price: 15000,
@@ -828,7 +828,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction12 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 6,
     time_leave: 8,
     price: 15000,
@@ -838,7 +838,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction13 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 18,
     time_leave: 19,
     price: 15000,
@@ -848,7 +848,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction14 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 18,
     time_leave: 19,
     price: 15000,
@@ -858,7 +858,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction13 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 17,
     time_leave: 20,
     price: 15000,
@@ -868,7 +868,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction14 = await Transaction.create({
-    day: "2019-12-19",
+    day: "2019-12-23",
     time_come: 17,
     time_leave: 20,
     price: 15000,
@@ -878,7 +878,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction15 = await Transaction.create({
-    day: "2019-12-20",
+    day: "2019-12-24",
     time_come: 6,
     time_leave: 7,
     price: 15000,
@@ -888,7 +888,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction16 = await Transaction.create({
-    day: "2019-12-20",
+    day: "2019-12-24",
     time_come: 6,
     time_leave: 7,
     price: 15000,
@@ -898,7 +898,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction17 = await Transaction.create({
-    day: "2019-12-20",
+    day: "2019-12-24",
     time_come: 10,
     time_leave: 12,
     price: 15000,
@@ -908,7 +908,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction18 = await Transaction.create({
-    day: "2019-12-20",
+    day: "2019-12-24",
     time_come: 10,
     time_leave: 12,
     price: 15000,
@@ -918,7 +918,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction19 = await Transaction.create({
-    day: "2019-12-21",
+    day: "2019-12-25",
     time_come: 14,
     time_leave: 17,
     price: 15000,
@@ -928,7 +928,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction20 = await Transaction.create({
-    day: "2019-12-21",
+    day: "2019-12-25",
     time_come: 14,
     time_leave: 18,
     price: 15000,
@@ -938,7 +938,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction21 = await Transaction.create({
-    day: "2019-12-22",
+    day: "2019-12-26",
     time_come: 6,
     time_leave: 8,
     price: 15000,
@@ -948,7 +948,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction20 = await Transaction.create({
-    day: "2019-12-22",
+    day: "2019-12-26",
     time_come: 6,
     time_leave: 8,
     price: 15000,
@@ -958,7 +958,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction19 = await Transaction.create({
-    day: "2019-12-22",
+    day: "2019-12-26",
     time_come: 12,
     time_leave: 17,
     price: 15000,
@@ -968,7 +968,7 @@ const applyFake = async () => {
     yardId: 1
   });
   transaction20 = await Transaction.create({
-    day: "2019-12-22",
+    day: "2019-12-26",
     time_come: 12,
     time_leave: 17,
     price: 15000,
@@ -977,15 +977,6 @@ const applyFake = async () => {
     accountId: 1,
     yardId: 1
   });
-  // transaction15 = await Transaction.create({
-  //   day: "2019-12-1",
-  //   time_come: 14,
-  //   time_leave: 18,
-  //   price: 15000,
-  //   car_number: "HT26VB1986",
-  //   accountId: 1,
-  //   yardId: 3
-  // });
   //yard_schedule
   yardSchedule1 = await YardSchedule.create({
     day: "2019-11-26",

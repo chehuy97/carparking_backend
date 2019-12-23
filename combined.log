@@ -14155,3 +14155,161 @@
     '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
   timestamp: '2019-12-18T04:42:23.160Z'
 }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T13:41:43.730Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T13:41:44.165Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T13:58:27.619Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T13:58:28.096Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T13:58:40.273Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T13:58:40.743Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T14:05:17.322Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T14:05:17.780Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T14:05:58.199Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T14:05:58.652Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-19T23:04:37.617Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-19T23:04:38.175Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-20T01:38:08.583Z'
+}
+{ level: 'error', timestamp: '2019-12-20T01:38:08.586Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-20T02:15:16.510Z'
+}
+{ level: 'error', timestamp: '2019-12-20T02:15:16.512Z' }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-20T02:15:56.496Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-20T02:15:56.998Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T02:02:38.596Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-22T02:02:40.650Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T02:07:45.210Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-22T02:07:45.741Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T02:58:34.960Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-22T02:58:35.426Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-22T02:59:07.498Z'
+}
+{ level: 'error', timestamp: '2019-12-22T02:59:07.502Z' }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T03:02:33.583Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-22T03:02:34.066Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T03:12:04.400Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-22T03:12:04.869Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-22T03:23:01.203Z'
+}
+{ level: 'error', timestamp: '2019-12-22T03:23:01.209Z' }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-22T03:31:09.283Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-22T03:31:09.700Z'
+}

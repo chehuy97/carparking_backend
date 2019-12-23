@@ -5015,3 +5015,36 @@
     '    at report_handling (D:\\CarParking-BackEnd\\controllers\\adminController.js:98:40)',
   timestamp: '2019-12-18T04:42:23.160Z'
 }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-20T01:38:08.583Z'
+}
+{ level: 'error', timestamp: '2019-12-20T01:38:08.586Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-20T02:15:16.510Z'
+}
+{ level: 'error', timestamp: '2019-12-20T02:15:16.512Z' }
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-22T02:02:40.650Z'
+}
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-22T02:59:07.498Z'
+}
+{ level: 'error', timestamp: '2019-12-22T02:59:07.502Z' }
+{
+  level: 'error',
+  message: TypeError: Cannot read property 'toJSON' of null
+      at login (D:\CarParking-BackEnd\controllers\authController.js:27:36),
+  timestamp: '2019-12-22T03:23:01.203Z'
+}
+{ level: 'error', timestamp: '2019-12-22T03:23:01.209Z' }
