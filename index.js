@@ -8,7 +8,7 @@ require("./startup/logging")();
 require("./startup/routes")(app);
 require("./startup/prod")(app);
 
-const port = 3000;
+const port = 3000 || config.PORT;
 
 const server = app.listen(port, () => {
   logger.info(`SERVER STARTED AT PORT ${port}...`);

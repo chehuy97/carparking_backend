@@ -14678,3 +14678,18 @@
   level: 'error',
   timestamp: '2019-12-24T14:41:24.526Z'
 }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:44:11.139Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:44:12.619Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:44:14.725Z'
+}
