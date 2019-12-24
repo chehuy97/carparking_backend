@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize");
 const { logger } = require("../middlewares/logging");
+const config = require("../config");
 
 const AccountModel = require("../models/account");
 //const ProfileModel = require("../models/profile");
@@ -12,10 +13,10 @@ const YardScheduleModel = require("../models/yard_schedule");
 const ReportModel = require("../models/report");
 
 var dbConfig = {
-  username: "root",
-  password: "",
-  database: "carparking_db",
-  host: "localhost",
+  username: config.USER,
+  password: config.PASSWORD,
+  database: config.DATABASE,
+  host: config.HOST,
   dialect: "mysql",
   define: {
     charset: "utf8mb4",

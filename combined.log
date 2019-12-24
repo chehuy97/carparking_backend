@@ -14313,3 +14313,368 @@
   level: 'info',
   timestamp: '2019-12-22T03:31:09.700Z'
 }
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:09:59.960Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:10:10.044Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:18:12.352Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:18:22.458Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:18:56.241Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:19:06.315Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:26:11.796Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:26:21.866Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:27:39.883Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:27:44.993Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:33:51.622Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:34:01.695Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:38:59.718Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:39:09.818Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:48:01.157Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:48:11.251Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:52:22.716Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:52:23.751Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:55:50.842Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:55:51.648Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:56:16.001Z'
+}
+{
+  message: "Unknown database 'thefuck'",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:16.763Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:56:25.025Z'
+}
+{
+  message: "Access denied for user 'admin'@'117.2.142.75' (using password: YES)",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:25.812Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T13:56:32.390Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:33.193Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:08:18.655Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:08:28.756Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:11:10.619Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:11:20.686Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:12:36.969Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:12:47.030Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:14:17.059Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:14:27.145Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:18:57.561Z'
+}
+{
+  message: "Unknown database 'carparking'",
+  level: 'error',
+  timestamp: '2019-12-24T14:18:58.651Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:20:19.125Z'
+}
+{
+  message: "Unknown database 'carparking'",
+  level: 'error',
+  timestamp: '2019-12-24T14:20:20.595Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:23:53.342Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:23:54.569Z'
+}
+{
+  message: "Unknown database 'mydatabase'",
+  level: 'error',
+  timestamp: '2019-12-24T14:23:55.412Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:25:56.741Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:25:56.814Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:26:19.413Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:26:39.558Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:26:39.609Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:26:43.291Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:28:04.590Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:28:04.705Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:30:26.221Z'
+}
+{
+  message: "Unknown database 'mydatabase'",
+  level: 'error',
+  timestamp: '2019-12-24T14:30:28.073Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:36:46.371Z'
+}
+{
+  message: 'DATABASE & TABLES CREATED',
+  level: 'info',
+  timestamp: '2019-12-24T14:36:58.582Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:38:34.253Z'
+}
+{
+  message: '"user" connection config property must be a string',
+  level: 'error',
+  timestamp: '2019-12-24T14:38:34.873Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:39:11.166Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:39:12.147Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:14.228Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:39:24.863Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:39:27.034Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:29.091Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:39:34.407Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:36.457Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:40:31.707Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:40:33.801Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:40:48.807Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:40:49.905Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:40:51.974Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:41:02.760Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:41:04.758Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:41:06.851Z'
+}
+{
+  message: 'SERVER STARTED AT PORT 3000...',
+  level: 'info',
+  timestamp: '2019-12-24T14:41:22.482Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:41:24.526Z'
+}

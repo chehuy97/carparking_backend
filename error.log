@@ -5048,3 +5048,168 @@
   timestamp: '2019-12-22T03:23:01.203Z'
 }
 { level: 'error', timestamp: '2019-12-22T03:23:01.209Z' }
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:10:10.044Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:18:22.458Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:19:06.315Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:26:21.866Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:34:01.695Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:39:09.818Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T13:48:11.251Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:52:23.751Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:55:51.648Z'
+}
+{
+  message: "Unknown database 'thefuck'",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:16.763Z'
+}
+{
+  message: "Access denied for user 'admin'@'117.2.142.75' (using password: YES)",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:25.812Z'
+}
+{
+  message: "Unknown database 'car-parking'",
+  level: 'error',
+  timestamp: '2019-12-24T13:56:33.193Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:08:28.756Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:11:20.686Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:12:47.030Z'
+}
+{
+  message: 'connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2019-12-24T14:14:27.145Z'
+}
+{
+  message: "Unknown database 'carparking'",
+  level: 'error',
+  timestamp: '2019-12-24T14:18:58.651Z'
+}
+{
+  message: "Unknown database 'carparking'",
+  level: 'error',
+  timestamp: '2019-12-24T14:20:20.595Z'
+}
+{
+  message: "Unknown database 'mydatabase'",
+  level: 'error',
+  timestamp: '2019-12-24T14:23:55.412Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:25:56.814Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:26:19.445Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:26:39.609Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:26:43.326Z'
+}
+{
+  message: 'getaddrinfo ENOTFOUND carparking.c83fc5fzexme.us-east-2.rds.amazonaws.com',
+  level: 'error',
+  timestamp: '2019-12-24T14:28:04.705Z'
+}
+{
+  message: "Unknown database 'mydatabase'",
+  level: 'error',
+  timestamp: '2019-12-24T14:30:28.073Z'
+}
+{
+  message: '"user" connection config property must be a string',
+  level: 'error',
+  timestamp: '2019-12-24T14:38:34.873Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:14.228Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:29.091Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:39:36.457Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:40:33.801Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:40:51.974Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:41:06.851Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '2019-12-24T14:41:24.526Z'
+}
